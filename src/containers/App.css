@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(45deg, #11A49B, #90FC8E);
+  background-attachment: fixed;
+}
+
+.header {
+  text-align: center;
+  margin-top: 5rem;
+  color: white;
+}
+
+.input {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  justify-content: center;
+  margin-top: 3rem;
+  background: #FFD563;
+  padding: 1rem 3rem;
+  width: 60vw;
+  border-radius: 5px;
+}
+
+.input input {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  padding: 8px 10px;
+  width: 50%;
+}
+
+.input button{
+  border: none;
+  outline: none;
+  margin-left: 5px;
+  background: #00ADB5;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+
+.input button:active {
+  transform: translateY(1px);
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.image img{
+  max-width: 60vw;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+@media screen and (max-width: 550px) {
+  .image img{
+    max-width: 80vw;
+  }
+  .input input {
+    width: 70%;
+  }
+}
