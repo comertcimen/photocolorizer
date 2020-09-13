@@ -6,7 +6,7 @@ import SyncLoader from "react-spinners/SyncLoader";
 import './App.css';
 const deepai = require('deepai');
 
-deepai.setApiKey('1322b21f-5c46-4c3a-8628-15e5cea83e97');
+deepai.setApiKey('YOUR API KEY HERE');
 
 
 class App extends Component {
